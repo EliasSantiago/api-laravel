@@ -10,10 +10,10 @@ API Laravel.
 
 ## How to run the api?
 
-Step 1: Clone the project, run the following commands:
+**Step 1: Clone the project, run the following commands:**
 
-Step 2: Create file .env
-- **cp .env.example .env**
+**Step 2: Create file .env**
+- cp .env.example .env
 - Set APP_URL in .env: APP_URL=http://localhost:8000/api/
 - Set database settings: <br>
 
@@ -24,22 +24,22 @@ DB_DATABASE=apilaravel <br>
 DB_USERNAME=root <br>
 DB_PASSWORD=apilaravel <br>
 
-Step 3: Run docker
-- **docker-composer up -d**
+**Step 3: Run docker**
+- docker-composer up -d
 
-Step 4: Install dependences:
-- **docker-compose exec app composer install**
+**Step 4: Install dependences:**
+- docker-compose exec app composer install
 
-Step 5: Generate key in .env
-- **docker-compose exec app php artisan key:generate**
+**Step 5: Generate key in .env**
+- docker-compose exec app php artisan key:generate
 
-Step 6: Install passport
-- **docker-compose exec app php artisan passport:install**
+**Step 6: Install passport**
+- docker-compose exec app php artisan passport:install
 
-Step 7: Generate tables
-- **docker-compose exec app php artisan migrate**
+**Step 7: Generate tables**
+- docker-compose exec app php artisan migrate
 
-
+<br><br>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
