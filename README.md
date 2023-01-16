@@ -2,6 +2,9 @@
 
 API Laravel.
 
+# Colletion Postman
+- The Collection and Environments has been added to the storage folder
+
 ## About the project
 
 - Laravel 8
